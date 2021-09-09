@@ -1,0 +1,9 @@
+body {
+    background-color:#DBEBFA;
+}
+*{
+  margin: 0;
+  font-family: 'Gothic A1', sans-serif;
+  list-style: none;
+  font-weight: bold;
+}

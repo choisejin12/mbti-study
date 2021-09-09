@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="ko" dir="1tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="chaesae">
+    <meta name="keywords" content="디저트로보는 나의 성격유형">
+    <meta name="description" content="디저트로보는 나의 성격유형">
+
+    <!-- sns share-->
+
+    <meta property="og:url" content="https://chaesae-mbti.netlify.app" />
+    <meta property="og:title" content="디저트로보는 나의 성격유형" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="img/share.png" />
+    <meta property="og:description" content="십이간지로 알아보는 연애유형" />
+
+
+    <!-- favicon-->
+
+    <link rel="shortcut icon" href="img/favicon.svg">
+    <link rel="apple-touch-icon-precomposed" href="img/favicon.svg" />
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/default.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/animation.css">
+    <link rel="stylesheet" href="./css/qna.css">
+    <link rel="stylesheet" href="./css/result.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+        integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <title>디저트로보는 나의 성격유형</title>
+    <script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
+    <script>
+        Kakao.init('f55b42527e88733e5c5cf5404e04f0ba');
+        Kakao.isInitialized();
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <section id="main">
+            <ul class="main-bar">
+                <li> <i class="fas fa-chevron-left"></i> </li>
+                <li>
+                    <div class="user-circle"></div>
+                </li>
+                <li>
+                    <i class="fas fa-user-circle" style="color: #D3D3D3;"></i>
+                    <p style="margin-left: 30px;">ChaeSae</p>
+                </li>
+                <li> <i class="fas fa-phone" style="margin-right: 60px;"></i> <i class="fas fa-video"
+                        style="margin-right: 60px;"></i> </li>
+            </ul>
+
+            <ul class="main-desc">
+                <li class="message-qna1">
+                    <i class="fas fa-user-circle" style="color: #D3D3D3;"></i>
+                    <div class="message-box">
+                        <p>나는 태어난다면 어떤 빵으로 태어날 것 같니?</p>
+                    </div>
+                </li>
+                <li class="message-qna2">
+                    <div class="message-box2">
+                        <p>음.. 너는 이 빵으로 태어날 것 같아!</p>
+                    </div>
+                </li>
+                <li class="message-answer">
+                    <div class="message-box3" onclick="js:begin()">
+                        <div class="message-share">
+                            <div class="share-name">
+                                <i class="fas fa-user-circle" style="color: #D3D3D3; font-size: 40px;"></i>
+                                <p> ChaeSae</p>
+                            </div>
+                            <div class="share-img">
+                                <img src="./image/croasant.png" alt="">
+                            </div>
+                            <div class="share-desc">
+                                <p style="margin-right: 10px; margin-left: 10px;">ChaeSae</p>
+                                <p>각종 빵으로 알아보는 mbti 사이트입니다. 해당 메세지를 클릭하여 시작해보세요!</p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
+            <ul class="main-text">
+                <li>
+                    <div class="camera-circle"></div>
+                </li>
+                <li class="main-textcamera">
+                    <i class="fas fa-camera"></i>
+                </li>
+                <li main-textdesc>
+                    <p>안녕안녕안녕안녕안녕</p>
+                </li>
+                <li main-textmike><i class="fas fa-microphone-alt"></i></li>
+                <li main-textimage><i class="far fa-image"></i></li>
+            </ul>
+        </section>
+
+        <section id="qna">
+            <ul class="main-bar">
+                <li> <i class="fas fa-chevron-left"></i> </li>
+                <li>
+                    <div class="user-circle"></div>
+                </li>
+                <li>
+                    <i class="fas fa-user-circle" style="color: #D3D3D3;"></i>
+                    <p style="margin-left: 30px;">ChaeSae</p>
+                </li>
+                <li> <i class="fas fa-phone" style="margin-right: 60px;"></i> <i class="fas fa-video"
+                        style="margin-right: 60px;"></i> </li>
+            </ul>
+
+            <ul class="main-desc">
+                <li class="message-qna1">
+                    <i class="fas fa-user-circle" style="color: #D3D3D3;"></i>
+                    <div class="qbox">
+                    </div>
+                </li>
+                <li class="message-qna2">
+                    <div class="answerBox">
+                    </div>
+                </li>
+            </ul>
+
+            <ul class="status">
+                <div class="statusBar"></div>
+            </ul>
+        </section>
+
+        <section id="result">
+
+            <ul class="result-bar">
+                <li>
+                    <p>CHAESAE</p>
+                </li>
+                <li>
+                    <p>결과</p>
+                </li>
+                <!-- <li>
+                    <p>참여하기</p>
+                </li>
+                <li>
+                    <i class="fas fa-chevron-right"></i>
+                </li> -->
+            </ul>
+
+            <ul class="result-username">
+                <li><i class="fas fa-user-circle"></i></li>
+                <li>
+                    <p>ChaeSae</p>
+                </li>
+            </ul>
+
+            <ul class="result-img">
+                <li>
+                    <div class="resultname">
+
+                    </div>
+                </li>
+
+                <li>
+                    <div id="resultImg">
+
+                    </div>
+                </li>
+            </ul>
+
+            <ul class="result-action">
+                <li><i class="far fa-heart"></i></li>
+                <li><i class="far fa-comment"></i></li>
+                <li><i class="far fa-share-square"></i></li>
+                <li>
+                    <p class="kakao" onclick="js:setShare()">공유하기</p>
+                </li>
+                <li><i class="far fa-bookmark"></i></li>
+            </ul>
+
+            <ul class="result-desc">
+                <li>
+                    <p>ChaeSae</p>
+                </li>
+                <li>
+                    <div class="resultDesc">
+
+                    </div>
+                </li>
+            </ul>
+
+        </section>
+
+
+        <script src="./js/data.js" charset="utf-8"></script>
+        <script src="./js/start.js" charset="utf-8"></script>
+        <script src="./js/share.js" charset="utf-8"></script>
+    </div>
+</body>
+
+</html>
