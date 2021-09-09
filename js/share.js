@@ -5,7 +5,7 @@ function setShare() {
     var resultAlt = resultImg.firstElementChild.alt;
     const shareTitle = "디저트로보는 성격유형 결과";
     const shareDesc = infoList[resultAlt].name;
-    const shareImg = url + "img/image-" + resultAlt + ".png";
+    const shareImg = url + "image/image-" + resultAlt + +"_share"+".png";
     const shareUrl = url + "pages/result-" + resultAlt + ".html";
 
     Kakao.Link.sendDefault({
