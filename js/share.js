@@ -1,4 +1,4 @@
-const url = "https://chaesae-mbti.netlify.app/";
+const url = "https://dessert-mbti.netlify.app/";
 
 function setShare() {
     var resultImg = document.querySelector("#resultImg");
