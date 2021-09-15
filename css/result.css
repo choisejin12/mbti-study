@@ -153,18 +153,18 @@
 
   .result-bar li:nth-child(3) {
     position: absolute;
-    right: 90px;
+    right: 20px;
     top: 30px;
-    font-size: 35px;
+    font-size: 15px;
     font-weight: bold;
     cursor: pointer;
   }
 
   .result-bar li:nth-child(4) {
     position: absolute;
-    right: 50px;
+    right: 10px;
     top: 30px;
-    font-size: 35px;
+    font-size: 15px;
     cursor: pointer;
   }
 
