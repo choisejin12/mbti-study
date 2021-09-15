@@ -292,8 +292,9 @@
 
   .message-qna2 {
     position: absolute;
-    top: 80px;
+    top: 95px;
     right: 20px;
+    margin-bottom: 10px;
   }
 
   .message-qna2 .message-box2 {
@@ -307,7 +308,7 @@
 
   .message-answer {
     position: absolute;
-    top: 140px;
+    top: 150px;
     right: 20px;
     width: 302px;
     height: 295px;
