@@ -63,6 +63,7 @@
   .result-username li:nth-child(2) {
     position: absolute;
     top: 40px;
+    left: 120px;
     margin-left: 75px;
     font-size: 27px;
   }
@@ -81,7 +82,7 @@
   }
 
   #resultImg img {
-    height: 800px;
+    height: 500px;
     width: 100%;
     object-fit: cover;
   }
@@ -89,8 +90,7 @@
   .result-action {
     position: absolute;
     display: flex;
-    top: 1020px;
-    left: 60px;
+    top: 700px;
     width: 100%;
     font-size: 40px;
     margin-top: 10px;
@@ -115,20 +115,13 @@
   .result-desc {
     position: absolute;
     display: flex;
-    width: 2300px;
-    bottom: 100px;
-    left: 90px;
+    bottom: 40px;
   }
 
   .result-desc li:nth-child(1) {
     margin-right: 20px;
-    font-size: 31px;
-    font-weight: bold;
-  }
-
-  .result-desc li:nth-child(2) {
-    margin-left: 30px;
     font-size: 27px;
+    font-weight: bold;
   }
 }
 
