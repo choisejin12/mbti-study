@@ -202,7 +202,7 @@
 
   .result-img .resultname {
     position: absolute;
-    left: 10px;
+    left: 7px;
     top: 50%;
     font-size: 15px;
   }
@@ -237,7 +237,7 @@
   }
 
   .result-action li:nth-child(4) {
-    font-size: 20px;
+    font-size: 14px;
     margin-top: 5px;
     cursor: pointer;
   }
