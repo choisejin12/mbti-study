@@ -200,13 +200,14 @@
     left: 7px;
     top: 50%;
     font-size: 12px;
+    width: 70%;
   }
 
   .result-img li:nth-child(1) {
     position: absolute;
     left: 410px;
     top: 250px;
-    width: 400px;
+    width: 430px;
   }
 
   #resultImg {
