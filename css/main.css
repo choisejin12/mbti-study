@@ -58,8 +58,8 @@
 
   .message-qna1 {
     display: flex;
-    top: 160px;
-    left: 180px;
+    top: 60px;
+    left: 80px;
     font-size: 60px;
   }
 
@@ -79,8 +79,8 @@
   }
 
   .message-qna2 {
-    top: 300px;
-    right: 600px;
+    top: 150px;
+    right: 300px;
   }
 
   .message-box2 p {
@@ -90,7 +90,7 @@
   }
 
   .message-box2 {
-    width: 600px;
+    width: 500px;
     height: 65px;
     background-color: #eeeded;
     margin-left: 30px;
@@ -98,8 +98,8 @@
   }
 
   .message-answer {
-    top: 420px;
-    right: 600px;
+    top: 240px;
+    right: 300px;
   }
 
   .message-box3:hover {
@@ -108,7 +108,7 @@
   }
 
   .message-box3 {
-    width: 600px;
+    width: 500px;
     background-color: #eeeded;
     border-radius: 40px;
   }
@@ -127,7 +127,6 @@
   .share-name p {
     margin-left: 20px;
     margin-top: 10px;
-    font-size: 18px;
   }
 
   .share-img {
@@ -136,8 +135,8 @@
   }
 
   .share-img img {
-    width: 100%;
-    height: 342px;
+    width: 500px;
+    height: 302px;
     object-fit: cover;
   }
 
@@ -145,14 +144,10 @@
     display: flex;
   }
 
-  .share-desc p {
-    font-size: 24px;
-  }
-
   .main-text {
     position: absolute;
     display: flex;
-    top: 1300px;
+    top: 847px;
     width: 70%;
     height: 65px;
     margin-left: 300px;
