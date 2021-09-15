@@ -271,7 +271,7 @@
   .message-qna1 {
     position: absolute;
     display: flex;
-    top: 120px;
+    top: 30px;
   }
 
   .message-qna1 .fas {
@@ -292,7 +292,7 @@
 
   .message-qna2 {
     position: absolute;
-    top: 180px;
+    top: 80px;
     right: 20px;
   }
 
@@ -307,7 +307,7 @@
 
   .message-answer {
     position: absolute;
-    top: 240px;
+    top: 140px;
     right: 20px;
     width: 302px;
     height: 295px;
