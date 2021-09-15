@@ -99,6 +99,7 @@
     cursor: pointer;
     border-radius: 20px;
     margin-left: 45px;
+    background-color: #eeeded;
   }
 
   .status {
